@@ -1,0 +1,49 @@
+
+
+
+.navbar .logo a
+{
+    color: #e7f9e2 !important;
+}
+.navbar::before{
+    content: "";
+    background-color: rgb(36, 32, 32) !important;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 99%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.2;
+    
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 6px 25px;
+    margin: 5px 50px;
+    border-radius: 24px;
+    font-size: 1.7rem;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 700;
+    transition: color 0.3s ease;
+    /* margin-left: 610px; */
+    color: #2c46db;
+    /* border: 2px solid red; */
+}
+.navbar .menu li a:hover{
+    color: white;
+        background-color: #f17510;
+        border:2px solid rgb(22, 38, 223);
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left{
+    margin-left: 19em;
+}
+
